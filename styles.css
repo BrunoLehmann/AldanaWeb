@@ -1,0 +1,20 @@
+#hora_inicio{
+    align-items: center;
+    width: 65px;
+    border-radius: 20px;
+}
+#hora_fin{
+    border-radius: 20px;
+    width: 65px;
+}
+#causestextarea{
+    padding-top: 20px;
+    height: 100px;
+}
+#tiempo{
+    width: 50px;
+}
+
+
+
+

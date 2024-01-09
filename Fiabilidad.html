@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Fiabilidad</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+</head>
+<body>
+    <h1>Fiabilidad</h1>
+
+<form method="post" name="google-sheet">
+    <strong>Sector</strong>
+    <br>    
+    <label for="choice1">Armature</label>
+    <input type="radio" name="sector" id="choice1" value="Armature" checked>
+    <br>
+    <label for="choice2">MEF</label>
+    <input type="radio" name="sector" id="choice2" value="MEF">
+    <br>
+    <label for="choice3">Piso Trasero</label>
+    <input type="radio" name="sector" id="choice3" value="Piso Trasero">
+    <br>
+    <label for="choice4">Capot - Volet</label>
+    <input type="radio" name="sector" id="choice4" value="Capot-Volet">
+    <br><br>
+    <label for="hora_inicio"><strong> Hora Inicio: </strong></label> 
+    <input type="time" id="hora_inicio" name="hora_inicio" class="input_hour">
+    <br><br>
+    <label for="hora_fin"><strong> Hora Fin: </strong></label> 
+    <input type="time" id="hora_fin" name="hora_fin" class="input_hour">
+    <br>    <br>
+    <label for="tiempo"><strong> Tiempo: </strong></label> 
+    <input type="number" min="0" id="tiempo" name="tiempo">
+    <br>
+    <label for="causes"> <strong> Causas: </strong></label>
+    <br>
+    <textarea id="causes" name="causes" placeholder="Escriba aqui la causa del error..."></textarea>
+    <br>
+    <input type="submit" value="ENVIAR" >
+</form>
+
+<div id="datos"></div>
+
+<script src="main.js"></script>
+</body> 
+
+</html>
+</DOCTYPE>
